@@ -12,4 +12,4 @@
 
 - Live Server
 
-- Better TOML
+- Even Better TOML
