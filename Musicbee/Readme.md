@@ -4,3 +4,4 @@
 
 ### Plugins
 - [DiscordBee](https://github.com/sll552/DiscordBee)
+- Last.fm
