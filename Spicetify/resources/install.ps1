@@ -1,13 +1,15 @@
 $ErrorActionPreference = 'Stop'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
+Write-Host -Object 'Spicetify script by v4ish' -ForegroundColor 'Green'
+
 Write-Host -Object 'Setting up...' -ForegroundColor 'Cyan'
 
 if (-not (Get-Command -Name 'spicetify' -ErrorAction 'SilentlyContinue')) {
   Write-Host -Object 'Spicetify not found.' -ForegroundColor 'Yellow'
   Write-Host -Object 'Installing it for you...' -ForegroundColor 'Cyan'
   $Parameters = @{
-    Uri             = 'https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.ps1'
+    Uri             = 'https://gitlab.com/v4ish/dotfiles/-/raw/main/Spicetify/resources/install.ps1'
     UseBasicParsing = $true
   }
   Invoke-WebRequest @Parameters | Invoke-Expression
@@ -51,7 +53,7 @@ spicetify config inject_css 1 replace_colors 1
 
 Write-Host -Object 'Downloading placeholder theme...' -ForegroundColor 'Cyan'
 $Parameters = @{
-  Uri             = 'https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/color.ini'
+  Uri             = 'https://gitlab.com/v4ish/dotfiles/-/raw/main/Spicetify/resources/color.ini'
   UseBasicParsing = $true
   OutFile         = "$marketThemePath\color.ini"
 }
