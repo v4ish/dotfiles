@@ -1,0 +1,70 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.titleBarStyle": "custom",
+  "telemetry.telemetryLevel": "crash",
+  "git.openRepositoryInParentFolders": "never",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "codesnap.target": "window",
+  "codesnap.transparentBackground": true,
+  "editor.fontFamily": "'FiraCode'",
+  "editor.fontSize": 16,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "codesnap.showWindowTitle": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "window.zoomLevel": 1,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "codesnap.showWindowControls": false,
+  "editor.inlineSuggest.fontFamily": "'FiraCode'",
+  "debug.console.fontFamily": "'FiraCode'",
+  "terminal.integrated.fontFamily": "'FiraCode'",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlayHints.fontFamily": "'FiraCode'",
+  "editor.codeLensFontFamily": "'FiraCode'",
+  "chat.editor.fontFamily": "'FiraCode'",
+  "workbench.startupEditor": "none",
+  "vscode_custom_css.imports": [
+    "file:///c:/Users/RTX3050/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+  ],
+  "workbench.colorTheme": "GitHub Dark Default",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "glassit.alpha": 245,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.multiCursorMergeOverlapping": false,
+  "editor.cursorBlinking": "phase",
+  "animations.CursorAnimation": true,
+  "animations.CursorAnimationOptions": {
+    "Color": "#00ffff"
+  },
+  "workbench.reduceMotion": "off",
+  "terminal.integrated.smoothScrolling": true,
+  "animations.Focus-Dimming-Amount": 100,
+  "animations.Focus-Dimming-Mode": "Full Window",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "scm.inputFontFamily": "'FiraCode'"
+}

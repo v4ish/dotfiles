@@ -1,3 +1,9 @@
+## Fonts
+
+Firacode
+
+- [config](settings.json)
+
 ## Themes and icons
 
 - [Dracula Theme](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
