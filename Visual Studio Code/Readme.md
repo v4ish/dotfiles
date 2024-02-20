@@ -6,6 +6,8 @@ Firacode
 
 ## Themes and icons
 
+- [Catppuccin](https://github.com/catppuccin/vscode)
+
 - [Dracula Theme](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)
 
 - [Atom one Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)
