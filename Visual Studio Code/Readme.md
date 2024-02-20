@@ -2,7 +2,7 @@
 
 Firacode
 
-- [config](settings.json)
+- [Config](settings.json)
 
 ## Themes and icons
 
