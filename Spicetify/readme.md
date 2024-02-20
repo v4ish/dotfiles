@@ -1,3 +1,7 @@
+### Themes
+
+- [Catppuccin](https://github.com/catppuccin/spicetify)
+
 ### Extensions
 
 - Beautiful Lyrics 
